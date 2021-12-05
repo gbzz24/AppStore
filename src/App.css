@@ -1,0 +1,103 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+.App{
+
+  background-color: #ff7700;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23c7162b' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23a81120' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c31132' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%239d1d41' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23be054d' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%239c0941' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23b41372' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%2396045a' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23af128f' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238d0b73' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23a815ac' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%2385148a' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: none;
+  margin: auto;
+}
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.ui.cards > .card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: rgb(103, 73, 255);
+  font-weight: 600;
+}
+
+.ui.cards > .card .meta.price > a {
+  font-size: 1.3rem;
+  color: #222;
+  
+}
+
+.ui.menu.fixed {
+  height: 60px;
+  padding-top: 15px;
+  background-color: #ffffff;
+}
+
+.ui.grid.container {
+  margin-top: 45px;
+  
+}
+
+.ui.grid > .row {
+  background: #fff;
+}
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
